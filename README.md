@@ -42,3 +42,8 @@ The frontend application will start and can be accessed at `http://localhost:517
 - API Integration: The backend processes the image and forwards it to the necessary endpoints.
 - Simulated Video Generation: To work around static mock APIs, the frontend dynamically animates the uploaded image using CSS to simulate video generation.
 - History: Previous generations are stored in the SQLite database and fetched automatically on load.
+
+## Approach & AI Tools
+I approached this project by separating the frontend UI from the backend API, focusing on a clean, modern design for the interface while ensuring the backend correctly manages file uploads and database records.
+
+**AI Tools Used:** I used Claude and Gemini to help generate boilerplate code, troubleshoot CSS layout issues, and refine the backend database logic.
